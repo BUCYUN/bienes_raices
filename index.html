@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SistemaBeienesRaices</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="source/css/styles.css">
+    <style>
+        footer {
+            background-color: #003da5;
+            padding: 20px;
+            text-align: center;
+            border-top: 1px solid #e9ecef;
+        }
+
+        .footer-content {
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.5;
+            color: #ffffff;
+        }
+
+        .footer-content a {
+            color: #000000;
+            text-decoration: none;
+        }
+
+        .footer-content a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-content i {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid d-flex align-items-center">
+                <!-- Logo de la izquierda -->
+                <a class="navbar-brand" href="proyectsis/index.html">
+                    <img src="source/img/logo.png">
+                </a>
+                <!-- Botón de menú para pantallas pequeñas -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Menú de navegación -->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="proyectsis/index.html">Pagina</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="generalidadesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Generalidades
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="generalidadesDropdown">
+                                <li class="dropdown-item-heading">
+                                    <strong>Tabla de contenido</strong>
+                                </li>
+                                <li><a class="dropdown-item" href="introduccion.html">Introducción</a></li>
+                                <li><a class="dropdown-item" href="antecedentes.html">Antecedentes</a></li>
+                                <li><a class="dropdown-item" href="planteamientoProblema.html">Planteamiento del problema</a></li>
+                                <li><a class="dropdown-item" href="formularioProblema.html">Formulación del problema</a></li>
+                                <li><a class="dropdown-item" href="propositoEstudio.html">Propósito de estudio</a></li>
+                                <li><a class="dropdown-item" href="metodosMedios.html">Métodos, medios e instrumentos</a></li>
+                                <li><a class="dropdown-item" href="marcoTeorico.html">Marco Teorico</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="estructuradoDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Análisis y diseño estructurado
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="estructuradoDropdown">
+                                <li class="dropdown-item-heading">
+                                    <strong>Implementado con el modelo esencial</strong>
+                                </li>
+                                <li><a class="dropdown-item" href="modeAmbiental.html">Modelo ambiental</a></li>
+                                <li><a class="dropdown-item" href="modeComportamiento.html">Modelo de comportamiento</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="objetosDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Análisis y diseño orientado a objetos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="objetosDropdown">
+                                <li class="dropdown-item-heading">
+                                    <strong>Modelo de diseño basado en elementos</strong>
+                                </li>
+                                <li><a class="dropdown-item" href="digClases.html">Diagrama de clases</a></li>
+                                <li><a class="dropdown-item" href="digCasosuso.html">Modelo de uso de negocio</a></li>
+                                <li><a class="dropdown-item" href="digSecuencia.html">Modelo de Objetos de Negocio</a></li>
+                            
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="video.html">Video</a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Contactos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+
+    <div class="content-wrapper">
+        <div class="wrapper">
+            <div class="content">
+                
+                <main class="container mt-5">
+                    <div class="mt-5">
+                        <h2 class="text-uppercase border-bottom pb-2" id="sis">
+                            SISTEMA DE BIENES RAICES
+                        </h2>
+                    </div>
+                    <section>
+                        <img src="source/img/logo2.png">
+                        <img src="source/img/logo3.jpg">
+                        <img src="source/img/logo2.png">
+                    </section>
+                    <section id="integrantes" class="py-5">
+                        <div class="container">
+                            <h2 class="text-center text-danger mb-4">Nuestros Integrantes</h2>
+                            <div class="row justify-content-center">
+                                <!-- Integrante 1 -->
+                                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                    <div class="card text-center shadow-lg h-100">
+                                        <img src="source/img/logo-pablo.png" class="card-img-top rounded-circle mx-auto mt-3" alt="Integrante 1" style="width: 150px; height: 150px; object-fit: cover;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Pablo Moises Yujra Ramirez</h5>
+                                            <a href="https://wa.me/59176558830"><i class="fab fa-whatsapp"></i></a>
+                                            <i class="fab fa-facebook"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <!-- Integrante 2 -->
+                                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                    <div class="card text-center shadow-lg h-100">
+                                        <img src="source/img/logo-omar.png" class="card-img-top rounded-circle mx-auto mt-3" alt="Integrante 2" style="width: 150px; height: 150px; object-fit: cover;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Omar Alejandro Capajaña Churata</h5>
+                                            <a href="https://wa.me/59167126314"><i class="fab fa-whatsapp"></i></a>
+            
+                                            <i class="fab fa-facebook"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <!-- Integrante 3 -->
+                                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                    <div class="card text-center shadow-lg h-100">
+                                        <img src="source/img/logo-cami.png" class="card-img-top rounded-circle mx-auto mt-3" alt="Integrante 3" style="width: 150px; height: 150px; object-fit: cover;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Camila Alejandra Echeverria Tarquino</h5>
+                                            <a href="https://wa.me/59178880483"><i class="fab fa-whatsapp"></i></a>
+                                            <i class="fab fa-facebook"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                    <div class="card text-center shadow-lg h-100">
+                                        <img src="source/img/logo-francisco.png" class="card-img-top rounded-circle mx-auto mt-3" alt="Integrante 3" style="width: 150px; height: 150px; object-fit: cover;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Francisco Gustavo Troche Venegas</h5>
+                                            <a href="https://wa.me/59179545618"><i class="fab fa-whatsapp"></i></a>
+            
+                                            <i class="fab fa-facebook"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                    <div class="card text-center shadow-lg h-100">
+                                        <img src="source/img/logo-brayan.png" class="card-img-top rounded-circle mx-auto mt-3" alt="Integrante 3" style="width: 150px; height: 150px; object-fit: cover;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Brayan Umpiri Chejo</h5>
+                                            <a href="https://wa.me/59160130442"><i class="fab fa-whatsapp"></i></a>
+            
+                                            <i class="fab fa-facebook"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                    <div class="card text-center shadow-lg h-100">
+                                        <img src="source/img/logo-jorge.png" class="card-img-top rounded-circle mx-auto mt-3" alt="Integrante 3" style="width: 150px; height: 150px; object-fit: cover;">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Jorge Zuñagua Peralta</h5>
+                                            <a href="https://wa.me/59168020010"><i class="fab fa-whatsapp"></i></a>
+                                            <i class="fab fa-facebook"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <BR></BR>
+                    <BR></BR>
+                    <div class="botonPagina"><a href="/proyectsis/index.html">VISITAR PAGINA WEB</a></div>
+                    
+                </main>
+    </div></div></div>
+    <footer>
+        <div class="footer-content">
+            <p><i class="fas fa-map-marker-alt"></i> Dirección: Av. Hernando Siles - Calle 3 de Obrajes , La Paz, Bolivia</p>
+            <p>
+                <a href="https://maps.app.goo.gl/g99bk2U1xmkByZ968" target="_blank">
+                    <i class="fas fa-map"></i> Ver en Google Maps
+                </a>
+            </p>
+            <p>© 2024 Bienes Raíces REMAX. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="source/js/main.js"></script>
+</body>
+</html>
